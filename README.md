@@ -13,43 +13,8 @@ Este é um projeto de treinamento que implementa uma simples API de Previsão do
 
 ### Pré-requisitos
 
-- .NET 8.0 SDK instalado ([Download](https://dotnet.microsoft.com/en-us/download))
-- Docker instalado (opcional, apenas para containerização)
+- Docker instalado
 - Um editor de código (Visual Studio Code, Visual Studio, etc.)
-
-### Instalação Local
-
-1. Clone ou extraia o repositório
-2. Navegue até o diretório do projeto
-3. Restaure as dependências:
-
-```bash
-dotnet restore
-```
-
-## Executando o Projeto
-
-### Método 1: Execução Direta (.NET)
-
-```bash
-dotnet run
-```
-
-A aplicação iniciará em:
-- **HTTP**: http://localhost:5000
-- **HTTPS**: https://localhost:5001
-
-Acesse o Swagger em: http://localhost:5000/swagger
-
-### Método 2: Build e Execução com Dotnet
-
-```bash
-# Compilar o projeto
-dotnet build
-
-# Executar o projeto compilado
-dotnet run
-```
 
 ## Docker - Tutorial Completo
 

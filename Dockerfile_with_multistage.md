@@ -14,7 +14,7 @@ O arquivo ```Dockerfile``` define como construir uma imagem Docker da aplicaçã
 
 Vamos ver o arquivo completo do arquivo antes de estudarmos linha por linha:
 
-```
+```dockerfile
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 WORKDIR /src
